@@ -134,7 +134,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="138dp"
         android:layout_marginLeft="138dp"
-        android:layout_marginTop="434dp"
+        android:layout_marginTop="450dp"
         android:layout_marginEnd="138dp"
         android:layout_marginRight="138dp"
         android:text="Send to Arduino"
