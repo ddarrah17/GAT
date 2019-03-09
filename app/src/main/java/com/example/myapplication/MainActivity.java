@@ -3,7 +3,6 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent(MainActivity.this, standard.class));
+                startActivity( new Intent(MainActivity.this, bt_device.class));
             }
         });
 
@@ -81,7 +80,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.standard_tune) {
-          startActivity( new Intent(MainActivity.this, standard.class));
+            startActivity( new Intent(MainActivity.this, standard.class));
             return false;
         } else if (id == R.id.drop_c) {
 
